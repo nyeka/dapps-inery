@@ -437,9 +437,9 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-"ineryjs@github:inery-blockchain/ineryjs":
+"ineryjs@git+https://github.com/inery-blockchain/ineryjs":
   version "1.0.0"
-  resolved "https://codeload.github.com/inery-blockchain/ineryjs/tar.gz/c9ec3430b6a011adcf9bcf7aa4dcd6e87d0644ae"
+  resolved "git+https://github.com/inery-blockchain/ineryjs#c9ec3430b6a011adcf9bcf7aa4dcd6e87d0644ae"
   dependencies:
     bn.js "^5.2.0"
     elliptic "^6.5.4"
