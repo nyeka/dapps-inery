@@ -56,6 +56,8 @@ const Modal = () => {
               <textarea
                 className={style.textarea}
                 placeholder="type any data"
+                value={data.data}
+                onChange={(e) => setData({ ...data, data: e.target.value })}
               />
             )}
           </form>
