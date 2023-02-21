@@ -1,9 +1,7 @@
 import React from "react";
 import { GlobalContext } from "../context/ContextApi";
-import handler from "../pages/api/hello";
 
 const Modal = () => {
-  const [htform, setHtform] = React.useState<any>("");
   const { Create, ReadData, loading, status, data, setData } =
     React.useContext(GlobalContext);
   const handlerSubmit = () => {
@@ -25,11 +23,6 @@ const Modal = () => {
     }
     return false;
   };
-
-  React.useEffect(() => {
-    if (loading) return;
-    setHtform("my-modal");
-  }, [loading]);
 
   return (
     <div>

@@ -5,15 +5,13 @@
     "build": "next build",
     "start": "next start"
   },
-
   "dependencies": {
-    "daisyui": "^2.50.1",
-   "ineryjs": "git+https://github.com/inery-blockchain/ineryjs",
+    "daisyui": "^2.50.2",
+    "ineryjs": "git+https://github.com/inery-blockchain/ineryjs",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
-
   "devDependencies": {
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
